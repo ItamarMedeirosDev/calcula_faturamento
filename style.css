@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(20, 20, 20);
+  color: #fff;
+}
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  background-color: #33333322;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #53f721;
+  color: #2c312a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #41c918;
+}
+#resultados {
+  margin-top: 20px;
+  text-align: left;
+}
+#resultados p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
